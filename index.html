@@ -3068,8 +3068,8 @@ const ArchiveHistory = (() => {
 </script>
 <script>
 const ArchiveRelease = (() => {
-  const version = '1.0.7', code = 8;
-  const base = 'https://zhusunwang0102-del.github.io/chat-archive-web/';
+  const version = '1.0.8', code = 9;
+  const base = 'https://liaotiandangan.zhusundehougong.com/';
   function parse(value) {
     if (!value || value.format !== 'chat-archive-release' || value.package !== 'app.lili.chatarchive' ||
       !Number.isSafeInteger(value.versionCode) || value.versionCode < 1 || typeof value.version !== 'string' || !/^\d+\.\d+\.\d+$/.test(value.version)) throw new Error('版本清单无法读取。');

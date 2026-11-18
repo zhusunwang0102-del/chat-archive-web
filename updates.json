@@ -1,18 +1,18 @@
 {
   "format": "chat-archive-release",
   "package": "app.lili.chatarchive",
-  "version": "1.0.7",
-  "versionCode": 8,
-  "publishedAt": "2026-11-18",
+  "version": "1.0.8",
+  "versionCode": 9,
+  "publishedAt": "2026-11-19",
   "android": {
-    "url": "downloads/chat-archive-1.0.7.apk",
-    "sha256": "a3f454b8df787c60872b16cd5a0d9bbf4bcb820fa6d5c62d3f163e2bcb1e88ca",
+    "url": "downloads/chat-archive-1.0.8.apk",
+    "sha256": "a106a3fdce4eff43fd3bd6759ce7d196fdfc5c924b8702686a8c5afd7c59f4c3",
     "size": 123530
   },
   "notes": [
-    "角色管理与角色主页重做，支持统计、置顶和快捷编辑。",
-    "气泡间距可调，标记可保留、隐藏或替换显示。",
-    "气泡内可插入、裁切及缩小图片，支持光标位置插入。",
-    "支持联网检查安卓新版及 iPhone 主屏幕网页版。"
+    "启用聊天档案正式域名，支持 iPhone 主屏幕使用。",
+    "修复换域名后的版本检测与安卓下载入口。",
+    "沿用原签名与本地存储地址，可覆盖安装保留记录。",
+    "1.0.7 安卓版需手动覆盖安装本版一次，之后可继续检查更新。"
   ]
 }
