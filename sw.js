@@ -1,8 +1,8 @@
-const CACHE = 'chat-archive-1.0.8-7aaa33932d4df099';
+const CACHE = 'chat-archive-1.0.8-304c5561524d4e15';
 const PREFIX = 'chat-archive-';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS.map(path => new Request(new URL(path,self.location.href),{cache:'reload'})))));
 });
 self.addEventListener('message',event => { if(event.data==='SKIP_WAITING')self.skipWaiting(); });
 self.addEventListener('activate',event => {
