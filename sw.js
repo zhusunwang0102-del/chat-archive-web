@@ -1,4 +1,4 @@
-const CACHE = 'chat-archive-1.1.6-e63a1cc82fa391de';
+const CACHE = 'chat-archive-1.1.7-211903aad7157dce';
 const PREFIX = 'chat-archive-';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',event => {
